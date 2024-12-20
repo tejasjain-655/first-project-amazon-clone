@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+#nav-belt1 {
+    height: 60px;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+    margin-left: 11px;
+}
+
+.logo {
+    height: 50px;
+    width: 90px;
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+}
+
+.Border {
+    border: 1px solid transparent;
+}
+
+.Border:hover {
+    border: 1px solid white;
+}
+
+.location {
+    height: 50px;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.location-logo {
+    height: 100%;
+    margin-top: 20px;
+    align-self: flex-end;
+}
+
+.location-line1 {
+    color: #cccccc;
+    font-size: 12px;
+}
+
+.location-line2 {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+#search-icon {
+    background-color: #F3A847;
+}
+
+.searchbar {
+    height: 40px;
+    display: flex;
+    margin: 0px 6px 0px 6px;
+}
+
+#search-type {
+    width: 45px;
+    background-color: #e6e6e6;
+    border-right: 0.1px solid lightgray;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
+#search-text {
+    width: 547px;
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+#search-icon {
+    width: 45px;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.nav-right {
+    margin-left: 1px;
+    margin-right: 1px;
+    padding: 0px 6px 10px 6px;
+    height: 50px;
+}
+
+.language-selector {
+    width: 75px;
+    display: flex;
+    align-items: flex-end;
+    font-size: 14px;
+    font-weight: bold;
+    gap: 2px;
+}
+
+#flag {
+    background-image: url(https://cdn-icons-png.flaticon.com/128/206/206626.png);
+    background-size: cover;
+    height: 20px;
+    width: 22px;
+}
+
+.Account-info {
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.order-info {
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.cart-info {
+    width: 80px;
+    margin-right: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.info-line1 {
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.info-line2 {
+    color: #ffffff;
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    align-items: flex-end;
+}
+
+/* Nav-belt2 */
+#nav-belt2 {
+    background-color: #232f3e;
+    height: 40px;
+    padding-left: 11px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#nav-belt2>* {
+    height: 39px;
+    margin: 5px 0px 5px 0px;
+    padding: 9px 9px 8px 9px;
+    font-size: 14px;
+    color: white;
+}
+
+.menu-bar {
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    align-items: center;
+}
+
+#main {
+    background-color: #e3e6e6;
+    height: 1150px;
+}
+
+.hero-section {
+    height: 600px;
+    background: no-repeat url(hero-image.jpg) center center;
+    background-size: cover;
+    box-shadow: #0f0f0f;
+}
+
+img {
+    width: 100vw;
+}
+
+.content {
+    position: absolute;
+    top: 350px;
+    width: 100vw;
+    padding: 0px 10px 0px 10px;
+}
+
+.hero-text {
+    width: 1225px;
+    height: 40px;
+    margin: 0px 10px 0px 10px;
+    padding: 10px 14px 10px 14px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: #f5f6f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glow {
+    color: #007185;
+    text-decoration-line: none;
+}
+
+.glow:hover {
+    color: #c7511f;
+    text-decoration: underline;
+}
+
+.grid-container {
+    padding: 20px 0px 20px 0px;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.product-grids {
+    width: 290px;
+    height: 400px;
+    margin: 0px 10px 0px 10px;
+    padding: 20px 20px 15px 20px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.seperater {
+    height: 20px;
+    display: block;
+    width: 100vw;
+}
+
+.product-header {
+    width: 100%;
+    height: 27px;
+
+}
+
+.product-main {
+    height: 304px;
+}
+
+.product-footer {
+    height: 30px;
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+.same-4 {
+    height: 115px;
+    width: 120px;
+}
+
+.image-4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.image {
+    height: 90%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.big-image {
+    width: 100%;
+    height: 300px;
+}
+
+.text-under-product {
+    font-size: 12px;
+    color: #0f1111;
+}
+footer {
+    background-color: #232f3e;
+    color: #ddd;
+    font-size: 14px;
+}
+
+.back-to-top {
+    background-color: #37475A;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.back-to-top a {
+    color: #ddd;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    border-bottom: 1px solid #3a4553;
+}
+
+.footer-column {
+    width: 20%;
+}
+
+.footer-column h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.footer-column a {
+    display: block;
+    font-size: 13px;
+    color: #ddd;
+    text-decoration: none;
+    margin-bottom: 6px;
+}
+
+.footer-column a:hover {
+    color: #ffffff;
+}
+
+.footer-bottom {
+    padding: 15px 0;
+    background-color: #131a22;
+    text-align: center;
+}
+
+.language-currency {
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+.language-currency span {
+    margin-right: 20px;
+    color: #ddd;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.footer-links a {
+    color: #ddd;
+    text-decoration: none;
+    margin: 5px 10px;
+    font-size: 13px;
+}
+
+.footer-links a:hover {
+    color: #ffffff;
+}
+
+.footer-legal {
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer-legal a {
+    margin: 0 10px;
+    color: #ddd;
+    text-decoration: none;
+}
+
+.footer-legal a:hover {
+    color: #ffffff;
+}
+
+.footer-legal p {
+    margin-top: 10px;
+    color: #ddd;
+}

@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class=navbar>
+            <div id="nav-belt1">
+                <div class="nav-logo Border">
+                    <div class="logo"></div>
+                </div>
+                <div class="location Border">
+                    <div class="location-logo">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <p class="location-line1">Deliver to</p>
+                    <p class="location-line2">India</p>
+                </div>
+                <div class="searchbar">
+                    <form class="searchbar">
+                        <label for="search-type"></label>
+                        <select id="search-type">
+                            <option name="All">All</option>
+                            <option name="Appliances">Appliances</option>
+                            <option name="Electronics">Electronics</option>
+                            <option name="Furniture">Furniture</option>
+                            <option name="books">books</option>
+                        </select>
+                        <input type="text" placeholder="Search Amazon" id="search-text">
+                        <button id="search-icon" style="display: flex;justify-content: center;align-items: center;"><i
+                                class="fa-solid fa-magnifying-glass" style="color: #5a5d63;"></i></button>
+                    </form>
+                </div>
+                <div class="language-selector Border nav-right">
+                    <div id="flag"></div>
+                    <p>EN</p>
+                    <i class="fa-solid fa-caret-down" style="color: #76797f;"></i>
+                </div>
+                <div class="Account-info Border nav-right">
+                    <div class="info-line1">
+                        <p>Hello, sign in</p>
+                    </div>
+                    <div class="info-line2">
+                        <p>Accounts &#38; Lists</p>
+                        <i class="fa-solid fa-caret-down" style="color: #76797f;"></i>
+                    </div>
+                </div>
+                <div class="order-info Border nav-right">
+                    <div class="info-line1">
+                        <p>Returns</p>
+                    </div>
+                    <div class="info-line2">
+                        <p>&#38; Orders</p>
+                    </div>
+                </div>
+                <div class="cart-info Border nav-right">
+                    <div class="info-line2">
+                        <i class="fa-solid fa-cart-shopping" style="color: #ffffff;font-size: 30px;"></i>
+                        <p>Cart</p>
+                    </div>
+                </div>
+            </div>
+            <div id="nav-belt2">
+                <div class="menu-bar Border">
+                    <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+                    <p>All</p>
+                </div>
+                <div class="Deals Border">
+                    <p>Today's Deals</p>
+                </div>
+                <div class="Border">
+                    Customer Service
+                </div>
+                <div class="Border">
+                    Registry
+                </div>
+                <div class="Border">
+                    Gift Cards
+                </div>
+                <div class=" Border">
+                    Sell
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="main">
+        <div class="hero-section">
+        </div>
+        <div class="content">
+            <div class="hero-text">
+                <p id="india-text">You are on amazon.com. You can also shop on Amazon India for millions of products
+                    with
+                    fast local delivery.</p>
+                <a href="https://www.amazon.in/" id="india-link" class="glow"> Click here to go to amazon.in</a>
+            </div>
+            <div class="grid-container">
+                <div class="product-grids" id="Gaming-acc">
+                    <div class="product-header">
+                        <h3>Gaming accessories</h3>
+                    </div>
+                    <div class="product-main image-4">
+                        <div class="same-4" id="Headsets">
+                            <div class="image" style="background-image: url(Headset.jpg);"></div>
+                            <div class="text-under-product">Headsets</div>
+                        </div>
+                        <div class="same-4" id="Keyboard">
+                            <div class="image" style="background-image: url(Keyboards.jpg);"></div>
+                            <div class="text-under-product">Keyboards</div>
+                        </div>
+                        <div class="same-4" id="computer-mice">
+                            <div class="image" style="background-image: url(Computer-mice.jpg);"></div>
+                            <div class="text-under-product">Computer-mice</div>
+                        </div>
+                        <div class="same-4" id="chair">
+                            <div class="image" style="background-image: url(Chairs.jpg);"></div>
+                            <div class="text-under-product">Chairs</div>
+                        </div>
+                    </div>
+                    <div class="product-footer glow">
+                        <a>See more</a>
+                    </div>
+                </div>
+                <div class="product-grids " id="PCs">
+                    <div class="product-header">
+                        <h3>Deals in PCs</h3>
+                    </div>
+                    <div class="product-main image-1">
+                        <div class="big-image"
+                            style="background-image: url(PC.jpg); background-size: cover; background-position: center;">
+                        </div>
+                    </div>
+                    <div class="product-footer glow">
+                        <a>Shop now</a>
+                    </div>
+                </div>
+                <div class="product-grids">
+                    <div class="product-header">
+                        <h3>Shop deals in Fashion</h3>
+                    </div>
+                    <div class="product-main image-4">
+                        <div class="same-4" id="jeans-under-$50">
+                            <div class="image" style="background-image: url(jeans-under-$50.jpg);"></div>
+                            <div class="text-under-product">Jeans under $50</div>
+                        </div>
+                        <div class="same-4" id="tops-under-25">
+                            <div class="image" style="background-image: url(tops-under-25.jpg);"></div>
+                            <div class="text-under-product">Tops under $25</div>
+                        </div>
+                        <div class="same-4" id="dresses-under-30">
+                            <div class="image" style="background-image: url(dresses-under-30.jpg);"></div>
+                            <div class="text-under-product">Dresses under $30</div>
+                        </div>
+                        <div class="same-4" id="shoes-under-50">
+                            <div class="image" style="background-image: url(shoes-under-50.jpg);"></div>
+                            <div class="text-under-product">Shoes under $50</div>
+                        </div>
+                    </div>
+                    <div class="product-footer glow">
+                        <a>See all details</a>
+                    </div>
+                </div>
+                <div class="product-grids">
+                    <div class="product-header">
+                        <h3>Refresh your space</h3>
+                    </div>
+                    <div class="product-main image-4">
+                        <div class="same-4" id="dining">
+                            <div class="image" style="background-image: url(dining.jpg);"></div>
+                            <div class="text-under-product">Dining</div>
+                        </div>
+                        <div class="same-4" id="home">
+                            <div class="image" style="background-image: url(home.jpg);"></div>
+                            <div class="text-under-product">Home</div>
+                        </div>
+                        <div class="same-4" id="kitchen">
+                            <div class="image" style="background-image: url(kitchen.jpg);"></div>
+                            <div class="text-under-product">Kitchen</div>
+                        </div>
+                        <div class="same-4" id="Health-and-beauty">
+                            <div class="image" style="background-image: url(Health-and-beauty.jpg);"></div>
+                            <div class="text-under-product">Health and beauty</div>
+                        </div>
+                    </div>
+                    <div class="product-footer glow">
+                        <a>See more</a>
+                    </div>
+                </div>
+                <hr class="seperater">
+                <div class="product-grids">
+                    <div class="product-header">
+                        <h3>New home arrivals under $50</h3>
+                    </div>
+                    <div class="product-main image-4">
+                        <div class="same-4" id="Kitchen">
+                            <div class="image" style="background-image: url(kitchen.png);"></div>
+                            <div class="text-under-product">Kitchen And Dining</div>
+                        </div>
+                        <div class="same-4" id="Home-improvement">
+                            <div class="image" style="background-image: url(Home-improvement.png);"></div>
+                            <div class="text-under-product">Home Improvement</div>
+                        </div>
+                        <div class="same-4" id="decor">
+                            <div class="image" style="background-image: url(decor.png);"></div>
+                            <div class="text-under-product">Decor</div>
+                        </div>
+                        <div class="same-4" id="bedding">
+                            <div class="image" style="background-image: url(Bedding.png);"></div>
+                            <div class="text-under-product">Bedding and Bath</div>
+                        </div>
+                    </div>
+                    <div class="product-footer glow"><a>Search the latest from home</a></div>
+                </div>
+                <div class="product-grids">
+                    <div class="product-header">
+                        <h3>Shop Deals In Fashion</h3>
+                    </div>
+                    <div class="product-main image-4">
+                        <div class="same-4" id="dresses">
+                            <div class="image" style="background-image: url(dresses.jpg);"></div>
+                            <div class="text-under-product">Dresses</div>
+                        </div>
+                        <div class="same-4" id="knits">
+                            <div class="image" style="background-image: url(knits.jpg);"></div>
+                            <div class="text-under-product">Knits</div>
+                        </div>
+                        <div class="same-4" id="jackets">
+                            <div class="image" style="background-image: url(jackets.jpg);"></div>
+                            <div class="text-under-product">Jackets</div>
+                        </div>
+                        <div class="same-4" id="jewelry">
+                            <div class="image" style="background-image: url(jewelry.jpg);"></div>
+                            <div class="text-under-product">Jewelry</div>
+                        </div>
+                    </div>
+                    <div class="product-footer glow">
+                        <a>Explore more</a>
+                    </div>
+                </div>
+                <div class="product-grids">
+                    <div class="product-header">
+                        <h3>Toys under $25</h3>
+                    </div>
+                    <div class="product-main image-1">
+                        <div class="big-image"
+                            style="background-image: url(toys-under-25.jpg); background-size: cover; background-position: center;">
+                        </div>
+                    </div>
+                    <div class="product-footer glow">
+                        <a>Shop now</a>
+                    </div>
+                </div>
+                <div class="product-grids">
+                    <div class="product-header">
+                        <h3>Beauty steals under $25</h3>
+                    </div>
+                    <div class="product-main image-1">
+                        <div class="big-image"
+                            style="background-image: url(beauty-steals-under-25.jpg); background-size: cover; background-position: center;">
+                        </div>
+                    </div>
+                    <div class="product-footer glow">
+                        <a>Shop now</a>
+                    </div>
+                </div>
+                <hr class="seperater">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="back-to-top">
+            <a href="#">Back to top</a>
+        </div>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Get to Know Us</h3>
+                <a href="#">Careers</a>
+                <a href="#">Blog</a>
+                <a href="#">About Amazon</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Amazon Devices</a>
+                <a href="#">Amazon Science</a>
+            </div>
+            <div class="footer-column">
+                <h3>Make Money with Us</h3>
+                <a href="#">Sell products on Amazon</a>
+                <a href="#">Sell on Amazon Business</a>
+                <a href="#">Sell apps on Amazon</a>
+                <a href="#">Become an Affiliate</a>
+                <a href="#">Advertise Your Products</a>
+                <a href="#">Self-Publish with Us</a>
+                <a href="#">Host an Amazon Hub</a>
+                <a href="#">See More Make Money with Us</a>
+            </div>
+            <div class="footer-column">
+                <h3>Amazon Payment Products</h3>
+                <a href="#">Amazon Business Card</a>
+                <a href="#">Shop with Points</a>
+                <a href="#">Reload Your Balance</a>
+                <a href="#">Amazon Currency Converter</a>
+            </div>
+            <div class="footer-column">
+                <h3>Let Us Help You</h3>
+                <a href="#">Amazon and COVID-19</a>
+                <a href="#">Your Account</a>
+                <a href="#">Your Orders</a>
+                <a href="#">Shipping Rates & Policies</a>
+                <a href="#">Returns & Replacements</a>
+                <a href="#">Manage Your Content and Devices</a>
+                <a href="#">Help</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="language-currency">
+                <span>English</span>
+                <span>USD - U.S. Dollar</span>
+                <span>United States</span>
+            </div>
+            <div class="footer-links">
+                <a href="#">Amazon Music</a>
+                <a href="#">Amazon Advertising</a>
+                <a href="#">Amazon Drive</a>
+                <a href="#">Amazon Web Services</a>
+                <a href="#">Audible</a>
+                <a href="#">More...</a>
+            </div>
+            <div class="footer-legal">
+                <a href="#">Conditions of Use</a>
+                <a href="#">Privacy Notice</a>
+                <a href="#">Interest-Based Ads</a>
+                <p>&copy; 1996-2024, Amazon.com, Inc. or its affiliates</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
